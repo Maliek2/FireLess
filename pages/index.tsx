@@ -19,9 +19,7 @@ export default function IndexPage() {
       <p className="caption">Follow Me</p>
 
 
-        <!-- Landing section -->
         
-              
 
               
       <p>
@@ -31,12 +29,7 @@ export default function IndexPage() {
         be fabulous for the rest of the day - checked!. Hide from vacuum
         cleaner.
      
-        Import your <a href={isAmp ? '/?amp=1' : '/'}>Programs</a>,
-        eat grass, throw it back up but refuse to leave cardboard box or groom
-        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
-        be fabulous for the rest of the day - checked!. Hide from vacuum
-        cleaner.
-      </p>
+        </p>
       <p>
         Import your <a href={isAmp ? '/about?amp=1' : '/about'}>About</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
