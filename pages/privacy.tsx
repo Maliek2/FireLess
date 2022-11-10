@@ -37,6 +37,7 @@ export default function PrivacyPage() {
       <style jsx>{`
         h1 {
           margin-bottom: 5px;
+          color: red;
         }
         p {
           font-size: 16px;
