@@ -58,6 +58,7 @@ export default function IndexPage() {
       <style jsx>{`
         h1 {
           margin-bottom: 5px;
+          color: green;
         }
         p {
           font-size: 16px;
