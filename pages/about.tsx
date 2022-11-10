@@ -26,7 +26,7 @@ export default function AboutPage() {
       <p>
         Was issued souly by your favorite company
         {' '}
-        <a href={isAmp ? '/home?amp=1' : '/home'}>Home </a> page. Marzipan gummi
+        <a href={isAmp ? '/blog?amp=1' : '/blog'}> Home </a> page. Marzipan gummi
         bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
         roll sweet roll topping chocolate bar dragée pudding chocolate cake.
         Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
