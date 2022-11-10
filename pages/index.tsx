@@ -18,7 +18,14 @@ export default function IndexPage() {
       <h1>Maliek Blog</h1>
       <p className="caption">Follow Me</p>
 
-
+      <p>
+        Import your <a href={isAmp ? '/privacy?amp=1' : '/privacy'}>Privacy</a>,
+        eat grass, throw it back up but refuse to leave cardboard box or groom
+        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
+        be fabulous for the rest of the day - checked!. Hide from vacuum
+        cleaner.
+     
+      </p>
         
 
               
