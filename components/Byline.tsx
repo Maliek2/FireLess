@@ -8,7 +8,7 @@ export default function Byline({ author }: BylineProps) {
       <div className="byline">By {author}</div>
       <style jsx>{`
         .byline {
-          color: green;
+          color: purple;
           font-weight: bolder;
         }
       `}</style>
