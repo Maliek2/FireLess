@@ -50,10 +50,10 @@ export default function IndexPage() {
       
       <style jsx>{`
         h1 {
-          margin-bottom: 6px;
+          margin-bottom: 5px;
         }
         p {
-          font-size: 14px;
+          font-size: 16px;
           line-height: 30px;
           margin-top: 30px;
         }
@@ -61,7 +61,7 @@ export default function IndexPage() {
           color: #ccc;
           margin-top: 0;
           font-size: 14px;
-          text-align: center;
+          text-align: left;
         }
       `}</style>
     </Layout>
