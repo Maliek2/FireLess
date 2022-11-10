@@ -15,19 +15,41 @@ export default function IndexPage() {
       <Head>
       <title>The Maliek Blog</title>
       </Head>
-      <h1>The Maliek Blog</h1>
+      <h1>Maliek Blog</h1>
 
-      <Byline author="Maliek Galant" />
-      <p className="caption">Maliek News</p>
-      
       <p>
-        Import your <a href={isAmp ? '/about?amp=1' : '/about'}>Programs</a>,
+        Import your <a href={isAmp ? '/terms?amp=1' : '/terms'}>Terms Of Use</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
         cleaner.
       </p>
-      
+       <p>
+        Import your <a href={isAmp ? '/home?amp=1' : '/'}>Programs</a>,
+        eat grass, throw it back up but refuse to leave cardboard box or groom
+        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
+        be fabulous for the rest of the day - checked!. Hide from vacuum
+        cleaner.
+      </p>
+      <p>
+        Import your <a href={isAmp ? '/about?amp=1' : '/about'}>About</a>,
+        eat grass, throw it back up but refuse to leave cardboard box or groom
+        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
+        be fabulous for the rest of the day - checked!. Hide from vacuum
+        cleaner.
+      </p>
+       
+      <p>
+        Import your <a href={isAmp ? '/contact?amp=1' : '/contact'}>Contact</a>,
+        eat grass, throw it back up but refuse to leave cardboard box or groom
+        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
+        be fabulous for the rest of the day - checked!. Hide from vacuum
+        cleaner.
+      </p>
+
+      <Byline author="Maliek Galant" />
+      <p className="caption">Follow Me</p>
+
       <style jsx>{`
         h1 {
           margin-bottom: 5px;
