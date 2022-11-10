@@ -18,7 +18,7 @@ export default function PrivacyPage() {
       <h1>Privacy Policy</h1>
 <p>Last updated: November 10, 2022</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
-<p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/" target="_blank">Free Privacy Policy Generator</a>.</p>
+<p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.google.co.za/amp/www.adball.tech/" target="_blank">Policy Generator</a>.</p>
 <h1>Interpretation and Definitions</h1>
 <h2>Interpretation</h2>
 <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
@@ -206,15 +206,9 @@ export default function PrivacyPage() {
               
       
        
-      <p>
-        Import your <a href={isAmp ? '/contact?amp=1' : '/contact'}>Contact</a>,
-        eat grass, throw it back up but refuse to leave cardboard box or groom
-        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
-        be fabulous for the rest of the day - checked!. Hide from vacuum
-        cleaner.
-      </p>
+      
 
-      <Byline author="Privacy Policy" />
+      <Byline author="Best Policy" />
       
       <style jsx>{`
         h1 {
