@@ -15,45 +15,44 @@ export default function IndexPage() {
       <Head>
       <title>The Maliek Blog</title>
       </Head>
+      <main className={styles.main}>
       <h1>Maliek Blog</h1>
-      
-
       <p>
-        Import your <a href={isAmp ? '/privacy?amp=1' : '/privacy'}>Privacy</a>,
-        eat grass, throw it back up but refuse to leave cardboard box or groom
-        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
-        be fabulous for the rest of the day - checked!. Hide from vacuum
-        cleaner.
-     
+        Fast messaging is a Next.js feature that gives you instantaneous feedback
+        on edits made to your React components, without ever losing component
+        state.
       </p>
-        
-
-              
-      <p>
-        Import your <a href={isAmp ? '/terms?amp=1' : '/terms'}>Terms</a>,
-        eat grass, throw it back up but refuse to leave cardboard box or groom
-        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
-        be fabulous for the rest of the day - checked!. Hide from vacuum
-        cleaner.
-     
+      <hr className={styles.hr} />
+      <div>
+        <p>
+          Auto incrementing value. The counter won't reset after edits or if
+          there are errors.
         </p>
-      <p>
-        Import your <a href={isAmp ? '/about?amp=1' : '/about'}>About</a>,
-        eat grass, throw it back up but refuse to leave cardboard box or groom
-        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
-        be fabulous for the rest of the day - checked!. Hide from vacuum
-        cleaner.
-      </p>
-       
-      <p>
-        Import your <a href={isAmp ? '/contact?amp=1' : '/contact'}>Contact</a>,
-        eat grass, throw it back up but refuse to leave cardboard box or groom
-        yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
-        be fabulous for the rest of the day - checked!. Hide from vacuum
-        cleaner.
-      </p>
-      <p className="caption">Follow Me</p>
-      <Byline author="Maliek Galant" />
+        <p>Current value: {count}</p>
+      </div>
+      <hr className={styles.hr} />
+      <div>
+        <p>Component with state.</p>
+        <ClickCount />
+      </div>
+      <hr className={styles.hr} />
+      <div>
+        <p>
+          The button below will throw 2 errors. You'll see the error overlay to
+          let you know about the errors but it won't break the page or reset
+          your state.
+        </p>
+        <Button
+          onClick={(e) => {
+            setTimeout(() => document.parentNode, 0)
+            throwError()
+          }}
+        >
+          Throw an Error
+        </Button>
+      </div>
+      <hr className={styles.hr} />
+    </main>
       
       <style jsx>
 {`
