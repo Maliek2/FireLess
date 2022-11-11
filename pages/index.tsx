@@ -16,7 +16,7 @@ export default function IndexPage() {
       <title>The Maliek Blog</title>
       </Head>
       <h1>Maliek Blog</h1>
-      <p className="caption">Follow Me</p>
+      
 
       <p>
         Import your <a href={isAmp ? '/privacy?amp=1' : '/privacy'}>Privacy</a>,
@@ -52,7 +52,7 @@ export default function IndexPage() {
         be fabulous for the rest of the day - checked!. Hide from vacuum
         cleaner.
       </p>
-
+      <p className="caption">Follow Me</p>
       <Byline author="Maliek Galant" />
       
       <style jsx>{`
