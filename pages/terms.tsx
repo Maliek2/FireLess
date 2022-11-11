@@ -105,6 +105,7 @@ You agree that the original English text shall prevail in the case of a dispute.
       <style jsx>{`
         h1 {
           margin-bottom: 5px;
+          color: red;
         }
         p {
           font-size: 16px;
