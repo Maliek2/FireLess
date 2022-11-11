@@ -17,32 +17,8 @@ export default function IndexPage() {
       </Head>
       
       <h1>Maliek Blog</h1>
-      <p>
-        Fast messaging is a Next.js feature that gives you instantaneous feedback
-        on edits made to your React components, without ever losing component
-        state.
-      </p>
-      
-      
-        <p>
-          Auto incrementing value. The counter won't reset after edits or if
-          there are errors.
-        </p>
-        
-      
-      
-      
-        <p>Component with state.</p>
-        
      
       
-     
-        <p>
-          The button below will throw 2 errors. You'll see the error overlay to
-          let you know about the errors but it won't break the page or reset
-          your state.
-        </p>
-        
       
     
       
