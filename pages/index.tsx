@@ -23,27 +23,27 @@ export default function IndexPage() {
         state.
       </p>
       
-      <div>
+      
         <p>
           Auto incrementing value. The counter won't reset after edits or if
           there are errors.
         </p>
         
-      </div>
       
-      <div>
+      
+      
         <p>Component with state.</p>
-        <ClickCount />
-      </div>
+        
+     
       
-      <div>
+     
         <p>
           The button below will throw 2 errors. You'll see the error overlay to
           let you know about the errors but it won't break the page or reset
           your state.
         </p>
         
-      </div>
+      
     
       
       <style jsx>
