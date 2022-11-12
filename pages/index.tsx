@@ -35,14 +35,7 @@ export default function IndexPage() {
       <p>
       Mutat dolores ea duo. Usu cu dico everti tincidunt, pri vero nullam vidisse no. Eam novum aeque populo cu. Verear contentiones ne quo, no sed consulatu definitionem.
       </p>
-      <p class="heading">
-      <amp-social-share type="twitter" width="45" height="33"></amp-social-share>
-      <amp-social-share type="facebook" width="45" height="33" data-attribution="254325784911610"></amp-social-share>
-      <amp-social-share type="gplus" width="45" height="33"></amp-social-share>
-      <amp-social-share type="email" width="45" height="33"></amp-social-share>
-      <amp-social-share type="pinterest" width="45" height="33"></amp-social-share>
-      </p>
-        
+      
       <style jsx>
 {`
 
