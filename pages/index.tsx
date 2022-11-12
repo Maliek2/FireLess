@@ -17,31 +17,25 @@ export default function IndexPage() {
       </Head>
       
       <h1>Maliek Blog</h1>
-      <amp-img data-block-on-consent src="https://preview.amp.dev/static/samples/img/landscape_lake_300x201.jpg" width="300" height="201">
-      </amp-img>
-      <amp-img data-block-on-consent src="https://preview.amp.dev/static/samples/img/landscape_lake_300x201.jpg" width="300" height="201">
-      </amp-img>
-      <amp-img data-block-on-consent src="https://preview.amp.dev/static/samples/img/landscape_lake_300x201.jpg" width="300" height="201">
-      </amp-img>
-
-
-. <!-- ## Defining the Consent Flow -->
-  <!--
-    We define a basic consent flow using the `promptUISrc` to load our custom consent iframe.
-  -->
-
+      
+        <ul>
+          <li>
+            On browsers that support <code>prefers-color-scheme</code> and report the user prefers <code>dark</code>,
+            just obey and don't give the user an override option, since they clearly state they like dark.
+          </li>
+          <li>
+            On browsers that support <code>prefers-color-scheme</code> and report the user prefers <code>light</code>
+            or <code>no-preference</code>, offer the option to toggle dark mode manually.
+          </li>
+          <li>
+            On browsers that don't support <code>prefers-color-scheme</code>,
+            offer the option to toggle dark mode manually.
+          </li>
+        </ul>
   
       <style jsx>
 {`
-:root {
-      --space-3: 1.5rem; /* 24px */
-    }
-    #post-consent-ui {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: var(--space-3);
-    }
+
 h1 {
       margin: 1rem;
     }
